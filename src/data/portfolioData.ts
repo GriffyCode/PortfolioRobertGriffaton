@@ -228,15 +228,15 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
         {
           name: { fr: "Esprit d’initiative", en: "Initiative" },
           example: {
-            fr: "Suite aux retours des utilisateurs sur l'intranet de Ramsay Santé, j'ai été force de proposition sur l'amélioration de l'UX/UI, afin de livrer une interface réellement adaptée à leurs usages quotidiens.",
-            en: "Following user feedback on the Ramsay Santé intranet, I proactively proposed UX/UI improvements to deliver an interface truly adapted to their daily uses."
+            fr: "Lors de mon stage chez Safran, on m'a conseillé une stack classique (serveur + PostgreSQL). En analysant le besoin, j'ai pris l'initiative de proposer une architecture locale différente via Electron et SQLite. Malgré les réticences initiales, j'ai su argumenter et convaincre l'équipe de la pertinence de mon choix, qui a finalement été validé et mis en place.",
+            en: "During my internship at Safran, I was advised to use a standard stack (server + PostgreSQL). After analyzing the requirements, I took the initiative to propose a different local architecture using Electron and SQLite. Despite initial reluctance, I successfully argued and convinced the team of the relevance of my choice, which was ultimately validated and implemented."
           }
         },
         {
           name: { fr: "Curiosité & Apprentissage", en: "Curiosity & Learning" },
           example: {
-            fr: "Je maintiens une veille technologique active qui se traduit par une auto-formation constante. C'est ce qui m'a permis d'intégrer des technologies comme React Native, Redis et Vue de manière autonome sur mes projets.",
-            en: "I maintain active technological watch resulting in constant self-training. This allowed me to independently integrate technologies like React Native, Redis, and Vue into my projects."
+            fr: "Je maintiens une veille technologique active, principalement autour de l'évolution des outils d'IA, des nouvelles versions de frameworks web et des écosystèmes SaaS. Je m'intéresse également de près aux technologies 3D (comme Three.js), un domaine que je compte approfondir pour mon futur parcours d'ingénieur.",
+            en: "I maintain an active technological watch, mainly around the evolution of AI tools, new versions of web frameworks, and SaaS ecosystems. I am also closely interested in 3D technologies (like Three.js), a field I intend to deepen for my future engineering path."
           }
         },
         {
