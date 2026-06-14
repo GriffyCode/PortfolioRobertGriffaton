@@ -7,7 +7,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     title: { fr: 'Profil', en: 'Profile' },
     subtitle: { fr: 'Apprenti Ingénieur ESIEE Paris', en: 'Apprentice Engineer - ESIEE Paris' },
     content: { 
-      fr: "Actuellement étudiant en BUT Informatique en parcours Réalisation d'Applications, je me spécialise principalement dans le développement fullstack, la conception d'architectures et les interfaces modernes.\n\nEn dehors du code, mes 10 années de conservatoire de musique m'ont apporté une rigueur que j'applique dans mes projets. J'aime beaucoup le travail en équipe, comme lors de la Nuit de l'Info où j'ai été chef d'équipe. Pour moi, la bonne ambiance et le sérieux vont ensemble.\n\nAdmis en cycle ingénieur à l'ESIEE Paris pour la rentrée de septembre 2026, je recherche une alternance pour les 3 prochaines années afin de continuer à progresser.", 
+      fr: "Actuellement étudiant en BUT Informatique en parcours Réalisation d'Applications, je me spécialise principalement dans le développement fullstack, modernisation d'outils et les technologies 3D & Web.\n\nAdmis en cycle ingénieur à l'ESIEE Paris pour la rentrée de septembre 2026, je recherche une alternance pour les 3 prochaines années afin de continuer à progresser et mettre mes compétences au sein d'une équipe.", 
       en: "Currently studying for a BUT in Computer Science (Application Development), I specialize in fullstack development, software architecture, and modern interfaces.\n\nBeyond coding, 10 years of conservatory music have given me a rigor I apply to all projects. I enjoy teamwork (e.g., Team Lead at Nuit de l'Info), believing good atmosphere and serious work go hand in hand.\n\nAdmitted to ESIEE Paris engineering school for September 2026, I'm seeking a 3-year apprenticeship to continue progressing." 
     },
     badge: { fr: 'Disponible 2026', en: 'Available 2026' },
@@ -21,7 +21,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
         mobility: { fr: 'Permis B', en: 'Driving License' },
         linkedIn: 'https://linkedin.com/in/robert-griffaton'
       },
-      cvUrl: '/CV_Robert_Griffaton.pdf',
+      cvUrl: '/CV_GRIFFATON_Robert_Alternance.pdf',
       proudestAchievement: {
         fr: "Ma plus grande fierté est ma démarche pour décrocher mon stage de fin d'études. Après ne pas avoir trouvé d'alternance en début d'année, j’ai tout de suite anticipé mes recherches en postulant très tôt. Cela m’a permis d’obtenir différentes opportunités et d’avoir un vrai choix. J'ai sélectionné Safran Electronics & Defense après avoir passé des entretiens techniques et RH sélectifs. Malgré la distance importante au quotidien, j’ai su m’adapter rapidement et trouver un nouveau rythme avec une organisation rigoureuse.",
         en: "My proudest achievement is the process of securing my final internship. After not finding an apprenticeship early in the year, I anticipated my search and applied very early. This allowed me to get multiple opportunities and have a real choice. I selected Safran after selective technical and HR interviews. Despite the significant daily commute, I adapted quickly and found a new rhythm with rigorous organization."
@@ -102,25 +102,24 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     subtitle: { fr: 'Évolution Académique', en: 'Academic Evolution' },
     content: { 
       fr: 'Je suis fier d’avoir eu un bulletin solide et des notes constantes chaque semestre, notamment en informatique et en maths. Les maths, c’est une vraie fierté, car j’ai toujours cherché à aller au bout des raisonnements et à progresser.', 
-      en: 'I am proud to have had a solid report card and consistent grades each semester, especially in computer science and math.' 
+      en: 'I am proud to have had a solid report card and consistent grades each semester, especially in computer science and math. Math is a real pride, as I have always sought to follow reasoning to the end and improve.' 
     },
     badge: { fr: 'Objectif Ingénieur', en: 'Engineering Goal' },
     iconName: 'GraduationCap',
     color: '#06b6d4',
     details: {
       evolution: {
-        fr: "La transition entre la première et la deuxième année de BUT Informatique a été un vrai tournant dans mon parcours. J’ai acquis de bonnes pratiques en développement, comme l’importance de la rigueur dans le code, la documentation, la gestion de projet et l’utilisation d’outils pros (Git, Figma...). J’ai surtout pris conscience de la valeur du travail en équipe et de la nécessité d’apprendre en continu. C’est durant cette période que j’ai confirmé mon choix de m’orienter vers l’informatique, où j'allie technique, créativité et résolution de problèmes.",
-        en: "The transition between the first and second year of BUT CS was a real turning point. I acquired good development practices and realized the value of teamwork and continuous learning."
+        fr: "La transition entre la première et la deuxième année de BUT Informatique a été un vrai tournant dans mon parcours. J’ai acquis de bonnes pratiques en développement, comme l’importance de la rigueur dans le code, la documentation, la gestion de projet et l’utilisation d’outils pros (Git, Figma, Excel, Jira...). Et surtout, ce qui me plaît et fonctionne beaucoup pour moi, car ça m'a toujours plu comme au sport, c'est le travail en équipe. Cette troisième année a été l'aboutissement de mon parcours avec la réalisation de ma première application mobile pour une SAÉ, ce qui correspondait à mon choix de parcours initial à mon début de BUT : le développement mobile. Aujourd'hui, les compétences acquises durant ces trois ans de BUT Informatique me permettent de répondre parfaitement aux missions de développeur Full Stack de mon stage actuel.",
+        en: "The transition between the first and second year of BUT CS was a real turning point in my path. I acquired good development practices, such as the importance of code rigor, documentation, project management, and using pro tools (Git, Figma, Excel, Jira...). And above all, what I enjoy and what works very well for me, as it always has in sports, is teamwork. This third year was the culmination of my path with the creation of my first mobile app for an academic project (SAÉ), which corresponded to my initial career choice at the start of the BUT: mobile development. Today, the skills acquired over these three years of the BUT in Computer Science allow me to perfectly fulfill the Full Stack developer missions of my current internship."
       },
       futureStudies: {
-        fr: "(TODO: Définition claire de la poursuite d'études)",
-        en: "(TODO: Definition of future studies)"
+        fr: "Mon objectif est de devenir ingénieur en informatique en alternance grâce à mon intégration à l'ESIEE Paris. J'ai choisi d'orienter ma spécialisation vers les technologies 3D. Ce parcours me permettra d'allier les compétences solides en développement et en algorithmie acquises durant mon BUT avec les outils de modélisation et d'affichage 3D pour concevoir les applications de demain.",
+        en: "My goal is to become a computer engineer through an apprenticeship at ESIEE Paris. I have chosen to specialize in 3D technologies. This path will allow me to combine the solid development and algorithmic skills acquired during my BUT with 3D modeling and rendering tools to design the applications of tomorrow."
       },
       schools: [
-        { degree: { fr: 'École d’Ingénieur', en: 'Engineering Degree' }, school: 'ESIEE Paris (Objectif)', period: '2026 – 2029', focus: { fr: 'Informatique (Spécialisation IA ou Logiciel)', en: 'Computer Science (AI or Software focus)' } },
-        { degree: { fr: 'BUT Informatique', en: 'BUT CS' }, school: 'IUT Villetaneuse - Sorbonne Paris Nord', period: '2023 – 2026', focus: { fr: 'Réalisation d\'applications : conception, développement, validation', en: 'App Development' } },
-        { degree: { fr: 'Baccalauréat Général', en: 'General Baccalaureate' }, school: 'Lycée Jean Jacques Rousseau', period: '2020 – 2023', focus: { fr: 'Spé Maths, Physique-Chimie, Maths expertes', en: 'Maths & Physics focus' } },
-        { degree: { fr: 'Brevet des Collèges', en: 'Middle School Diploma' }, school: 'Collège Victor Hugo', period: '2016 – 2020', focus: { fr: 'Mention Très Bien', en: 'Highest Honors' } }
+        { degree: { fr: 'École d’Ingénieur', en: 'Engineering Degree' }, school: 'ESIEE Paris', period: '2026 – 2029', focus: { fr: 'Cycle Ingénieur en Informatique — Spécialisation Technologies 3D & Logiciel (En apprentissage)', en: 'Computer Science Engineering — 3D Tech & Software focus (Apprenticeship)' } },
+        { degree: { fr: 'BUT Informatique', en: 'BUT CS' }, school: 'Université Sorbonne Paris Nord (IUT Villetaneuse)', period: '2023 – 2026', focus: { fr: 'Parcours Réalisation d\'applications : conception, développement, validation', en: 'Application Development Pathway' } },
+        { degree: { fr: 'Baccalauréat Général', en: 'General Baccalaureate' }, school: 'Lycée Jean-Jacques Rousseau', period: '2020 – 2023', focus: { fr: 'Spécialités Mathématiques, Physique-Chimie et option Mathématiques Expertes', en: 'Maths, Physics-Chemistry and Expert Maths focus' } }
       ]
     }
   },
@@ -139,7 +138,6 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     details: [
       { 
         name: 'GRAYE', 
-        image: '/projects/graye.png',
         mockup: '/projects/graye-mockup.png',
         type: 'Application Mobile (SAE S5)', 
         stack: 'React Native, TypeScript, SQLite, Expo Go, Tailwind CSS', 
@@ -209,43 +207,43 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
         {
           name: { fr: "Communication", en: "Communication" },
           example: { 
-            fr: "Lors de mon stage chez Ramsay Santé, j’ai animé des réunions pour recueillir les besoins utilisateurs, puis présenté mes avancées régulièrement à toute l’équipe. J’ai appris à rendre mes messages clairs pour tous, même les non-informaticiens.",
-            en: "During my internship at Ramsay Health, I led meetings to gather user needs, then regularly presented my progress to the whole team."
+            fr: "Lors de mon stage chez Ramsay Santé, j'ai pris en charge le recueil des besoins terrain (rôle de MOA). J'ai su analyser les attentes des utilisateurs pour les restituer de manière claire, chiffrée et structurée à l'équipe technique.",
+            en: "During my internship at Ramsay Santé, I was in charge of gathering field requirements (MOA role). I analyzed user expectations to present them clearly and structurally to the technical team."
           }
         },
         {
           name: { fr: "Esprit d'équipe", en: "Team Spirit" },
           example: {
-            fr: "Sur le projet ATM Chat (SAE S3), j’ai contribué à la réussite commune : entraide entre membres, répartition claire des tâches, résolution de conflits et code partagé sur GitHub pour avancer ensemble efficacement.",
-            en: "On the ATM Chat project, I contributed to our joint success: mutual help, clear task delegation, and conflict resolution."
+            fr: "Sur le projet ATM'Chat (SAE S3/S4), j'ai veillé à la cohésion du groupe via l'entraide technique, une répartition équitable des tâches et une gestion rigoureuse de notre dépôt Git partagé pour éviter les conflits de code.",
+            en: "On the ATM'Chat project (SAE S3/S4), I ensured group cohesion through technical mutual aid, fair task distribution, and rigorous management of our shared Git repository to avoid code conflicts."
           }
         },
         {
           name: { fr: "Adaptabilité", en: "Adaptability" },
           example: {
-            fr: "Première expérience professionnelle : adaptation rapide au rythme, aux outils inconnus et à la diversité des profils, en full présentiel alors que mes collègues alternaient télétravail.",
-            en: "First professional experience: quick adaptation to the pace, unknown tools, and diversity of profiles."
+            fr: "Intégré en 100% présentiel chez Ramsay Santé, j'ai su me rendre rapidement opérationnel sur des environnements d'entreprise jusqu'alors inconnus, tels que SharePoint et Power Apps.",
+            en: "Integrated 100% on-site at Ramsay Santé, I quickly became operational in previously unknown corporate environments, such as SharePoint and Power Apps."
           }
         },
         {
           name: { fr: "Esprit d’initiative", en: "Initiative" },
           example: {
-            fr: "J’ai proposé des idées d’améliorations (UX, sécurité) sur le projet Intranet Ramsay Santé, que j’ai ensuite mis en place après validation, allant au-delà du cahier des charges initial.",
-            en: "I proposed improvement ideas (UX, security) on the Ramsay Health Intranet project, which I then implemented after validation."
+            fr: "Suite aux retours des utilisateurs sur l'intranet de Ramsay Santé, j'ai été force de proposition sur l'amélioration de l'UX/UI, afin de livrer une interface réellement adaptée à leurs usages quotidiens.",
+            en: "Following user feedback on the Ramsay Santé intranet, I proactively proposed UX/UI improvements to deliver an interface truly adapted to their daily uses."
           }
         },
         {
           name: { fr: "Curiosité & Apprentissage", en: "Curiosity & Learning" },
           example: {
-            fr: "Passionné d’auto-formation : j’apprends régulièrement de nouveaux frameworks (ex : Vue, React), ce qui me permet d’être polyvalent sur mes projets étudiants ou perso.",
-            en: "Passionate about self-training: I regularly learn new frameworks, allowing me to be versatile."
+            fr: "Je maintiens une veille technologique active qui se traduit par une auto-formation constante. C'est ce qui m'a permis d'intégrer des technologies comme React Native, Redis et Vue de manière autonome sur mes projets.",
+            en: "I maintain active technological watch resulting in constant self-training. This allowed me to independently integrate technologies like React Native, Redis, and Vue into my projects."
           }
         },
         {
           name: { fr: "Organisation", en: "Organization" },
           example: {
-            fr: "Gestion de projet (intranet Ramsay, site vitrine Top Auto) : planification, tableur comme Excel, priorisation des tâches pour respecter les deadlines.",
-            en: "Project management: planning, spreadsheets like Excel, task prioritization to meet deadlines."
+            fr: "Que ce soit sur mes projets personnels de grande ampleur ou sur le cursus universitaire, je sais planifier mes sprints, définir mes priorités et respecter strictement les deadlines imposées.",
+            en: "Whether on large-scale personal projects or university coursework, I know how to plan my sprints, define priorities, and strictly adhere to deadlines."
           }
         }
       ],
@@ -253,20 +251,38 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
         {
           name: { fr: "Réaliser (Niveau 3)", en: "Realize (Level 3)" },
           level: 3,
-          synthesis: { fr: "(TODO: Synthèse des acquis Réaliser)", en: "(TODO: Synthesis Realize)" },
-          selfEvaluation: { fr: "(TODO: Auto-évaluation transparente Réaliser)", en: "(TODO: Self-evaluation Realize)" }
+          synthesis: { 
+            fr: "Capacité à concevoir, développer et livrer une application de bout en bout (Projet personnel VersusStream, SAE S5 GRAYE).", 
+            en: "Ability to design, develop, and deliver an application from end to end (Personal project VersusStream, SAE S5 GRAYE)." 
+          },
+          selfEvaluation: { 
+            fr: "Très bon niveau, autonome de A à Z.", 
+            en: "Very good level, autonomous from A to Z." 
+          }
         },
         {
           name: { fr: "Optimiser (Niveau 3)", en: "Optimize (Level 3)" },
           level: 3,
-          synthesis: { fr: "(TODO: Synthèse des acquis Optimiser)", en: "(TODO: Synthesis Optimize)" },
-          selfEvaluation: { fr: "(TODO: Auto-évaluation transparente Optimiser)", en: "(TODO: Self-evaluation Optimize)" }
+          synthesis: { 
+            fr: "Analyse critique, choix d'architecture et benchmark algorithmique (SAE S6 Voronoï, comparaison des performances code humain vs IA).", 
+            en: "Critical analysis, architecture choices, and algorithmic benchmarking (SAE S6 Voronoï, comparing human vs. AI code performance)." 
+          },
+          selfEvaluation: { 
+            fr: "Bon niveau, rigoureux sur l'algorithmie, marge de progression ciblée en DevOps.", 
+            en: "Good level, rigorous in algorithms, targeted room for improvement in DevOps." 
+          }
         },
         {
           name: { fr: "Collaborer (Niveau 3)", en: "Collaborate (Level 3)" },
           level: 3,
-          synthesis: { fr: "(TODO: Synthèse des acquis Collaborer)", en: "(TODO: Synthesis Collaborate)" },
-          selfEvaluation: { fr: "(TODO: Auto-évaluation transparente Collaborer)", en: "(TODO: Self-evaluation Collaborate)" }
+          synthesis: { 
+            fr: "Intégration et travail en équipe au sein des SAE académiques et en milieu professionnel (Stage chez Ramsay Santé).", 
+            en: "Integration and teamwork within academic SAEs and in a professional environment (Internship at Ramsay Santé)." 
+          },
+          selfEvaluation: { 
+            fr: "Très bon niveau, communication fluide et maîtrise avérée des outils agiles et de Git.", 
+            en: "Very good level, fluent communication and proven mastery of agile tools and Git." 
+          }
         }
       ]
     }
@@ -277,8 +293,8 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     title: { fr: 'Culture', en: 'Culture' },
     subtitle: { fr: 'Ouverture & Langues', en: 'Hobbies & Languages' },
     content: { 
-      fr: 'Bilingue (FR/RO), musicien et compétiteur (Échecs, Futsal).', 
-      en: 'Bilingual (FR/RO), musician and competitor (Chess, Futsal).' 
+      fr: "En dehors du code, mes 10 années de conservatoire de musique m'ont apporté une rigueur que j'applique dans mes projets. J'aime beaucoup le travail en équipe, comme lors de la Nuit de l'Info où j'ai été chef d'équipe. Pour moi, la bonne ambiance et le sérieux vont ensemble.", 
+      en: "Beyond coding, 10 years of conservatory music have given me a rigor I apply to all projects. I enjoy teamwork (e.g., Team Lead at Nuit de l'Info), believing good atmosphere and serious work go hand in hand." 
     },
     badge: { fr: 'Soft Skills', en: 'Soft Skills' },
     iconName: 'Music',

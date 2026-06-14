@@ -45,7 +45,7 @@ const ProjectPreview: React.FC<DetailProps<ProjectItem>> = ({ item, t }) => {
                 <img 
                   src={proj.image} 
                   alt={proj.name} 
-                  className="absolute inset-0 w-full h-full object-cover opacity-20 group-hover/proj:opacity-50 transition-opacity duration-500 grayscale group-hover/proj:grayscale-0" 
+                  className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover/proj:opacity-60 transition-opacity duration-500" 
                 />
               ) : (
                 <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-transparent opacity-50 group-hover/proj:opacity-100 transition-opacity" />

@@ -49,9 +49,7 @@ const BlockDetail: React.FC<BlockDetailProps> = ({ id, lang }) => {
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-black text-white uppercase tracking-tighter leading-none mb-6 md:mb-8 break-words">
                {t(item.subtitle)}
             </h1>
-            <p className="text-xl text-slate-300 max-w-3xl leading-relaxed italic">
-               {t(item.content)}
-            </p>
+
          </div>
 
          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">

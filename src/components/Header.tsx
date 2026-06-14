@@ -1,5 +1,5 @@
+import { ArrowLeft, Download } from 'lucide-react';
 import React from 'react';
-import { Download, ArrowLeft } from 'lucide-react';
 
 interface HeaderProps {
   lang: 'fr' | 'en';
@@ -12,7 +12,7 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ lang, setLang, title, color, Icon, onClose }) => {
   return (
-    <header className="flex items-center justify-between h-12 mb-4 shrink-0 z-[110] px-2">
+    <header className="sticky top-0 flex items-center justify-between py-4 mb-4 shrink-0 z-[110] bg-[#0a0a0c]/80 backdrop-blur-md border-b border-white/5 -mx-4 lg:-mx-8 px-4 lg:px-8">
       {/* Left: Branding or Back Button */}
       <div className="flex items-center gap-2 lg:gap-3">
         {onClose && (
@@ -50,8 +50,9 @@ const Header: React.FC<HeaderProps> = ({ lang, setLang, title, color, Icon, onCl
         </button>
 
         <a 
-          href="/cv/Robert_Griffaton_CV.pdf" 
-          download 
+          href="/CV_GRIFFATON_Robert_Alternance.pdf" 
+          target="_blank"
+          rel="noreferrer"
           className="flex px-4 lg:px-6 py-1.5 lg:py-2 bg-white text-black rounded-full font-bold text-[10px] uppercase tracking-widest hover:bg-slate-200 transition-all items-center gap-1 lg:gap-2 shadow-xl"
         >
           <Download size={14} />

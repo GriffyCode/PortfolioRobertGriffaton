@@ -14,8 +14,8 @@ const ExperiencePreview: React.FC<DetailProps<ExperienceItem>> = ({ item, lang, 
     desc: t(exp.missions)[0] || ''
   }));
 
-  // Append future goal
-  timeline.push({
+  // Prepend future goal so it appears at the top
+  timeline.unshift({
     id: 'alternance',
     company: 'Alternance Ingénieur',
     role: lang === 'fr' ? 'Recherche active' : 'Actively seeking',
