@@ -207,15 +207,15 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
         {
           name: { fr: "Communication", en: "Communication" },
           example: { 
-            fr: "Lors de mon stage chez Ramsay Santé, j'ai pris en charge le recueil des besoins terrain (rôle de MOA). J'ai su analyser les attentes des utilisateurs pour les restituer de manière claire, chiffrée et structurée à l'équipe technique.",
-            en: "During my internship at Ramsay Santé, I was in charge of gathering field requirements (MOA role). I analyzed user expectations to present them clearly and structurally to the technical team."
+            fr: "Lors de mon stage chez Ramsay Santé, j'ai communiqué directement avec les utilisateurs pour recueillir et analyser leurs besoins terrain. J'ai aussi développé une forte aisance à l'oral lors des multiples soutenances du BUT et à la Journée de l'Éloquence où j'ai obtenu une très bonne évaluation.",
+            en: "During my internship at Ramsay Health, I communicated directly with users to gather and analyze their field requirements. I also developed strong public speaking skills through multiple university presentations and during the 'Journée de l'Éloquence' (Public Speaking Day), where I achieved excellent results."
           }
         },
         {
           name: { fr: "Esprit d'équipe", en: "Team Spirit" },
           example: {
-            fr: "Sur le projet ATM'Chat (SAE S3/S4), j'ai veillé à la cohésion du groupe via l'entraide technique, une répartition équitable des tâches et une gestion rigoureuse de notre dépôt Git partagé pour éviter les conflits de code.",
-            en: "On the ATM'Chat project (SAE S3/S4), I ensured group cohesion through technical mutual aid, fair task distribution, and rigorous management of our shared Git repository to avoid code conflicts."
+            fr: "Sur le projet ATM'Chat (SAE S3/S4), j'ai veillé à la cohésion du groupe via l'entraide et la participation de tous, une répartition équitable des tâches et une gestion de notre dépôt Git partagé pour éviter les conflits de code.",
+            en: "On the ATM'Chat project (SAE S3/S4), I ensured group cohesion through mutual aid and everyone's participation, fair task distribution, and management of our shared Git repository to avoid code conflicts."
           }
         },
         {
@@ -242,46 +242,46 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
         {
           name: { fr: "Organisation", en: "Organization" },
           example: {
-            fr: "Que ce soit sur mes projets personnels de grande ampleur ou sur le cursus universitaire, je sais planifier mes sprints, définir mes priorités et respecter strictement les deadlines imposées.",
-            en: "Whether on large-scale personal projects or university coursework, I know how to plan my sprints, define priorities, and strictly adhere to deadlines."
+            fr: "Que ce soit sur mes projets personnels, scolaires ou professionnels, je sais planifier mes sprints, définir mes priorités et respecter strictement les deadlines imposées.",
+            en: "Whether on personal, academic, or professional projects, I know how to plan my sprints, define priorities, and strictly adhere to deadlines."
           }
         }
       ],
       butSkills: [
         {
-          name: { fr: "Réaliser (Niveau 3)", en: "Realize (Level 3)" },
+          name: { fr: "Réaliser", en: "Realize" },
           level: 3,
           synthesis: { 
-            fr: "Capacité à concevoir, développer et livrer une application de bout en bout (Projet personnel VersusStream, SAE S5 GRAYE).", 
-            en: "Ability to design, develop, and deliver an application from end to end (Personal project VersusStream, SAE S5 GRAYE)." 
+            fr: "Conception et développement d’applications web dynamiques et d’applications mobiles. Modélisation de bases de données, création d'interfaces utilisateur et mise en place d'architectures structurées.", 
+            en: "Design and development of dynamic web and mobile applications. Database modeling, user interface creation, and structured architecture implementation." 
           },
           selfEvaluation: { 
-            fr: "Très bon niveau, autonome de A à Z.", 
-            en: "Very good level, autonomous from A to Z." 
+            fr: "Mon stage actuel m'a fait passer un vrai cap en 3 mois sur les technos web. Je me sens autonome pour lancer un projet, tout en sachant que j'ai une marge de progression sur des langages plus bas niveau pour enrichir ma polyvalence.", 
+            en: "My current internship helped me reach a real milestone in 3 months on web technologies. I feel autonomous to launch a project, while knowing I have room for improvement on lower-level languages to enrich my versatility." 
           }
         },
         {
-          name: { fr: "Optimiser (Niveau 3)", en: "Optimize (Level 3)" },
+          name: { fr: "Optimiser", en: "Optimize" },
           level: 3,
           synthesis: { 
-            fr: "Analyse critique, choix d'architecture et benchmark algorithmique (SAE S6 Voronoï, comparaison des performances code humain vs IA).", 
-            en: "Critical analysis, architecture choices, and algorithmic benchmarking (SAE S6 Voronoï, comparing human vs. AI code performance)." 
+            fr: "Analyse critique du code, application des principes de Clean Code pour garantir la lisibilité et la maintenabilité, et étude de la complexité algorithmique pour assurer une exécution rapide.", 
+            en: "Critical code analysis, application of Clean Code principles to ensure readability and maintainability, and study of algorithmic complexity to guarantee fast execution." 
           },
           selfEvaluation: { 
-            fr: "Bon niveau, rigoureux sur l'algorithmie, marge de progression ciblée en DevOps.", 
-            en: "Good level, rigorous in algorithms, targeted room for improvement in DevOps." 
+            fr: "Je suis naturellement rigoureux sur la logique et j'aime chercher la meilleure solution pour rendre un programme plus rapide. Ma marge de progression se situe sur le DevOps et les mathématiques plus poussées, que je compte acquérir grâce au cycle ingénieur.", 
+            en: "I am naturally rigorous with logic and I enjoy looking for the best solution to make a program faster. My room for improvement lies in DevOps and more advanced mathematics, which I plan to acquire through the engineering cycle." 
           }
         },
         {
-          name: { fr: "Collaborer (Niveau 3)", en: "Collaborate (Level 3)" },
+          name: { fr: "Collaborer", en: "Collaborate" },
           level: 3,
           synthesis: { 
-            fr: "Intégration et travail en équipe au sein des SAE académiques et en milieu professionnel (Stage chez Ramsay Santé).", 
-            en: "Integration and teamwork within academic SAEs and in a professional environment (Internship at Ramsay Santé)." 
+            fr: "Travail en équipe et gestion de projet acquis grâce au BUT. Coordination des tâches, fusions de code sur Git et application des méthodologies agiles. Ces compétences ont été mises à l'épreuve avec succès au sein d'équipes nombreuses lors de mes deux stages (Ramsay Santé et Safran).", 
+            en: "Teamwork and project management acquired through the BUT. Task coordination, code merging on Git, and application of agile methodologies. These skills were successfully put to the test within large teams during my two internships (Ramsay Health and Safran)." 
           },
           selfEvaluation: { 
-            fr: "Très bon niveau, communication fluide et maîtrise avérée des outils agiles et de Git.", 
-            en: "Very good level, fluent communication and proven mastery of agile tools and Git." 
+            fr: "C'est l'une de mes compétences préférées. Que ce soit en SAÉ, lors de la Nuit de l'Info ou en entreprise, j'aime gérer la dynamique d'équipe et communiquer. Comme dans le sport, le collectif est ce qui fonctionne le mieux pour moi.", 
+            en: "It is one of my favorite skills. Whether in academic projects, during the Nuit de l'Info, or in a corporate setting, I enjoy managing team dynamics and communicating. As in sports, the collective effort is what works best for me." 
           }
         }
       ]

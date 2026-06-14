@@ -72,9 +72,8 @@ const SkillDetail: React.FC<DetailProps<SkillItem>> = ({ item, lang, t }) => {
               <thead>
                 <tr className="border-b border-cyan-500/30">
                   <th className="py-4 px-6 text-cyan-400 font-black uppercase text-xs tracking-widest">{lang === 'fr' ? 'Compétence' : 'Skill'}</th>
-                  <th className="py-4 px-6 text-cyan-400 font-black uppercase text-xs tracking-widest">{lang === 'fr' ? 'Niveau' : 'Level'}</th>
-                  <th className="py-4 px-6 text-cyan-400 font-black uppercase text-xs tracking-widest w-1/3">{lang === 'fr' ? 'Synthèse des Acquis' : 'Learning Synthesis'}</th>
-                  <th className="py-4 px-6 text-cyan-400 font-black uppercase text-xs tracking-widest w-1/3">{lang === 'fr' ? 'Auto-Évaluation' : 'Self-Evaluation'}</th>
+                  <th className="py-4 px-6 text-cyan-400 font-black uppercase text-xs tracking-widest w-[40%]">{lang === 'fr' ? 'Synthèse des Acquis' : 'Learning Synthesis'}</th>
+                  <th className="py-4 px-6 text-cyan-400 font-black uppercase text-xs tracking-widest w-[40%]">{lang === 'fr' ? 'Auto-Évaluation' : 'Self-Evaluation'}</th>
                 </tr>
               </thead>
               <tbody>
@@ -82,9 +81,6 @@ const SkillDetail: React.FC<DetailProps<SkillItem>> = ({ item, lang, t }) => {
                   <tr key={i} className="border-b border-white/5 hover:bg-white/5 transition-colors">
                     <td className="py-6 px-6 align-top">
                       <span className="text-white font-bold block">{t(skill.name)}</span>
-                    </td>
-                    <td className="py-6 px-6 align-top">
-                      <span className="inline-block px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-xs font-black">{skill.level}</span>
                     </td>
                     <td className="py-6 px-6 align-top text-sm text-slate-300 leading-relaxed">{t(skill.synthesis)}</td>
                     <td className="py-6 px-6 align-top text-sm text-slate-400 leading-relaxed italic">{t(skill.selfEvaluation)}</td>
