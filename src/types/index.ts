@@ -32,7 +32,11 @@ export interface ProfileDetails {
     email: string;
     location: Translation;
     mobility: Translation;
+    linkedIn: string; // Obligatoire
   };
+  proudestAchievement?: Translation; // Focus réussite
+  objectives?: Translation; // Objectifs court/moyen/long terme
+  cvUrl?: string; // Lien vers le CV PDF
 }
 
 export interface ExperienceMission {
@@ -41,7 +45,9 @@ export interface ExperienceMission {
   image: string;
   role: Translation;
   traceUrl?: string;
-  subjective?: Translation;
+  professionalReview?: Translation; // Bilan monde professionnel
+  personalAnalysis?: Translation; // Analyse personnelle
+  testimonials?: { author: string; role: string; text: Translation }[];
   missions: TranslationList;
 }
 
@@ -54,16 +60,23 @@ export interface EducationSchool {
 
 export interface EducationDetails {
   evolution: Translation;
+  futureStudies?: Translation; // Poursuite d'études
   schools: EducationSchool[];
 }
 
 export interface ProjectDetails {
   name: string;
+  image?: string;
+  mockup?: string;
+  mockupScale?: string;
+  isPersonal?: boolean;
   type: string;
   stack: string;
   desc: Translation;
   traceUrl?: string;
+  prodUrl?: string;
   subjective?: Translation;
+  saeReview?: Translation; // Bilan complet des SAÉ
 }
 
 export interface SkillDetails {
@@ -73,6 +86,12 @@ export interface SkillDetails {
   infra: string[];
   tools: string[];
   softSkillsData: SoftSkill[];
+  butSkills?: { 
+    name: Translation; 
+    level: number; 
+    synthesis: Translation; 
+    selfEvaluation: Translation 
+  }[]; // Tableau de synthèse des compétences BUT
 }
 
 export interface CultureDetails {
@@ -80,6 +99,9 @@ export interface CultureDetails {
   hackathons: Translation;
   sports: TranslationList;
   passeportCulturel: TranslationList;
+  techWatch?: TranslationList; // Veille technologique
+  pedagogicalOutings?: TranslationList; // Sorties pédagogiques
+  international?: Translation; // Ouverture à l'international
   langs: TranslationList;
 }
 

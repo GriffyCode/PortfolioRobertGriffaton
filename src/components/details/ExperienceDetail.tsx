@@ -18,10 +18,16 @@ const ExperienceDetail: React.FC<DetailProps<ExperienceItem>> = ({ item, lang, t
           
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-stretch">
             <div className="lg:col-span-9 space-y-6">
-              {exp.subjective && (
+              {exp.professionalReview && (
                 <div className="p-6 bg-cyan-500/5 border border-cyan-500/20 rounded-2xl">
-                  <h4 className="text-[10px] font-black text-cyan-500 uppercase tracking-widest mb-4">{lang === 'fr' ? 'Récit Subjectif' : 'Subjective Narrative'}</h4>
-                  <p className="text-sm text-slate-300 leading-relaxed italic">"{t(exp.subjective)}"</p>
+                  <h4 className="text-[10px] font-black text-cyan-500 uppercase tracking-widest mb-4">{lang === 'fr' ? 'Bilan Professionnel' : 'Professional Review'}</h4>
+                  <p className="text-sm text-slate-300 leading-relaxed italic">{t(exp.professionalReview)}</p>
+                </div>
+              )}
+              {exp.personalAnalysis && (
+                <div className="p-6 bg-purple-500/5 border border-purple-500/20 rounded-2xl">
+                  <h4 className="text-[10px] font-black text-purple-400 uppercase tracking-widest mb-4">{lang === 'fr' ? 'Analyse Personnelle' : 'Personal Analysis'}</h4>
+                  <p className="text-sm text-slate-300 leading-relaxed italic">{t(exp.personalAnalysis)}</p>
                 </div>
               )}
               <ul className="space-y-4 h-full">
@@ -32,12 +38,19 @@ const ExperienceDetail: React.FC<DetailProps<ExperienceItem>> = ({ item, lang, t
                   </li>
                 ))}
               </ul>
-              {exp.traceUrl && (
-                 <div className="pt-4">
-                    <a href={exp.traceUrl} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-6 py-3 bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 rounded-full text-xs font-black uppercase tracking-widest hover:bg-cyan-500 hover:text-white transition-all">
-                       {lang === 'fr' ? 'Consulter la trace' : 'View trace'}
-                    </a>
-                 </div>
+              {exp.testimonials && exp.testimonials.length > 0 && (
+                <div className="pt-6 space-y-4">
+                  <h4 className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{lang === 'fr' ? 'Témoignages' : 'Testimonials'}</h4>
+                  {exp.testimonials.map((testi: any, k: number) => (
+                    <div key={k} className="p-4 bg-white/5 border border-white/10 rounded-xl relative">
+                      <p className="text-xs text-slate-300 italic mb-2">"{t(testi.text)}"</p>
+                      <div className="flex justify-between items-center mt-2">
+                        <span className="text-cyan-400 text-[10px] font-bold uppercase">{testi.author}</span>
+                        <span className="text-slate-500 text-[10px] uppercase">{testi.role}</span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
               )}
             </div>
             <div className="lg:col-span-3">

@@ -7,8 +7,14 @@ const EducationDetail: React.FC<DetailProps<EducationItem>> = ({ item, lang, t }
     <div className="col-span-12 space-y-12">
       <div className="p-8 bg-cyan-500/5 border border-cyan-500/20 rounded-3xl">
         <h4 className="text-[10px] font-black text-cyan-500 uppercase tracking-widest mb-6">{lang === 'fr' ? 'Évolution Académique' : 'Academic Evolution'}</h4>
-        <p className="text-base text-slate-200 leading-relaxed italic">"{t(item.details.evolution)}"</p>
+        <p className="text-base text-slate-200 leading-relaxed italic">{t(item.details.evolution)}</p>
       </div>
+      {item.details.futureStudies && (
+        <div className="p-8 bg-purple-500/5 border border-purple-500/20 rounded-3xl">
+          <h4 className="text-[10px] font-black text-purple-400 uppercase tracking-widest mb-6">{lang === 'fr' ? 'Poursuite d\'Études' : 'Future Studies'}</h4>
+          <p className="text-base text-slate-200 leading-relaxed font-bold">{t(item.details.futureStudies)}</p>
+        </div>
+      )}
       <div className="space-y-6">
         {item.details.schools.map((edu: any, i: number) => (
           <div key={i} className="flex gap-8 items-center p-6 bg-white/10 border border-white/10 rounded-3xl hover:border-purple-500/40 transition-colors">

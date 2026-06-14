@@ -1,4 +1,4 @@
-import type {  PortfolioItem  } from '../types';
+import type { PortfolioItem } from '../types';
 
 export const PORTFOLIO_DATA: PortfolioItem[] = [
   {
@@ -7,8 +7,8 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     title: { fr: 'Profil', en: 'Profile' },
     subtitle: { fr: 'Apprenti Ingénieur ESIEE Paris', en: 'Apprentice Engineer - ESIEE Paris' },
     content: { 
-      fr: 'Passionné par la tech, la musique et tout ce qui touche au numérique, je poursuis actuellement un BUT Informatique où je m’épanouis à travers les projets web et logiciels. J’ai un vrai goût pour le développement fullstack, le design d’interfaces modernes, et le travail en équipe où la bonne ambiance est aussi importante que la rigueur. Pour la suite, je recherche activement une alternance pour ma 3ème année, avant de viser une école d’ingénieur pour continuer à progresser et approfondir mes compétences.', 
-      en: 'Passionate about tech, music, and everything digital, I am currently pursuing a BUT in Computer Science where I thrive through web and software projects. I have a real taste for fullstack development, modern interface design, and teamwork where a good atmosphere is as important as rigor. I am actively seeking a 3rd-year apprenticeship before aiming for an engineering school to continue progressing.' 
+      fr: "Actuellement étudiant en BUT Informatique en parcours Réalisation d'Applications, je me spécialise principalement dans le développement fullstack, la conception d'architectures et les interfaces modernes.\n\nEn dehors du code, mes 10 années de conservatoire de musique m'ont apporté une rigueur que j'applique dans mes projets. J'aime beaucoup le travail en équipe, comme lors de la Nuit de l'Info où j'ai été chef d'équipe. Pour moi, la bonne ambiance et le sérieux vont ensemble.\n\nAdmis en cycle ingénieur à l'ESIEE Paris pour la rentrée de septembre 2026, je recherche une alternance pour les 3 prochaines années afin de continuer à progresser.", 
+      en: "Currently studying for a BUT in Computer Science (Application Development), I specialize in fullstack development, software architecture, and modern interfaces.\n\nBeyond coding, 10 years of conservatory music have given me a rigor I apply to all projects. I enjoy teamwork (e.g., Team Lead at Nuit de l'Info), believing good atmosphere and serious work go hand in hand.\n\nAdmitted to ESIEE Paris engineering school for September 2026, I'm seeking a 3-year apprenticeship to continue progressing." 
     },
     badge: { fr: 'Disponible 2026', en: 'Available 2026' },
     iconName: 'User',
@@ -18,7 +18,17 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
         tel: '06 66 98 47 75',
         email: 'griffatonr@gmail.com',
         location: { fr: 'Val d\'Oise (95)', en: 'Val d\'Oise, France' },
-        mobility: { fr: 'Permis B', en: 'Driving License' }
+        mobility: { fr: 'Permis B', en: 'Driving License' },
+        linkedIn: 'https://linkedin.com/in/robert-griffaton'
+      },
+      cvUrl: '/CV_Robert_Griffaton.pdf',
+      proudestAchievement: {
+        fr: "Ma plus grande fierté est ma démarche pour décrocher mon stage de fin d'études. Après ne pas avoir trouvé d'alternance en début d'année, j’ai tout de suite anticipé mes recherches en postulant très tôt. Cela m’a permis d’obtenir différentes opportunités et d’avoir un vrai choix. J'ai sélectionné Safran Electronics & Defense après avoir passé des entretiens techniques et RH sélectifs. Malgré la distance importante au quotidien, j’ai su m’adapter rapidement et trouver un nouveau rythme avec une organisation rigoureuse.",
+        en: "My proudest achievement is the process of securing my final internship. After not finding an apprenticeship early in the year, I anticipated my search and applied very early. This allowed me to get multiple opportunities and have a real choice. I selected Safran after selective technical and HR interviews. Despite the significant daily commute, I adapted quickly and found a new rhythm with rigorous organization."
+      },
+      objectives: {
+        fr: "Court terme :\nJe souhaite mener à bien mes dernières missions de stage chez Safran. Mon but est de finaliser mon projet technique et de réussir la rédaction de mon rapport ainsi que ma soutenance. En parallèle, je finalise mes démarches pour trouver mon alternance pour la rentrée à l'ESIEE Paris. En septembre, je vais intégrer cette nouvelle école et débuter mon cycle d'ingénieur.\n\nMoyen terme :\nMon objectif principal est de décrocher mon diplôme d'ingénieur. Je veux orienter ma spécialisation selon les domaines qui me passionneront le plus durant mes cours et mes projets. Je reste ouvert aux opportunités professionnelles qui se présenteront à la suite de cette alternance.\n\nLong terme :\nÀ l'avenir, je souhaite évoluer au-delà du développement purement technique. Je me projette dans des rôles de Tech Lead ou de gestionnaire de projets informatiques. Manager et structurer des projets est une direction où je sais que je prendrai beaucoup de plaisir.",
+        en: "Short term:\nComplete my final internship missions at Safran, finalize my technical project, report, and defense. Find an apprenticeship for ESIEE Paris. \n\nMedium term:\nGet my engineering degree and specialize based on what I enjoy most during my studies.\n\nLong term:\nEvolve beyond pure technical development into Tech Lead or IT project management roles."
       }
     }
   },
@@ -39,17 +49,22 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
         company: 'Safran Electronics & Defense',
         year: '2026',
         image: '/experience/safran.jpg',
-        role: { fr: 'Développeur Logiciel (Cyber Offensive)', en: 'Software Developer (Offensive Cyber)' },
+        role: { fr: 'Développeur Logiciel (Cybersécurité Offensive)', en: 'Software Developer (Offensive Cybersecurity)' },
         traceUrl: '/DOC/placeholder_trace.txt',
+        professionalReview: {
+          fr: "Ce stage en Cybersécurité Offensive est une excellente immersion dans un environnement très technique. Ce secteur impose des contraintes de sécurité strictes : tout le travail se fait en local, sans aucun outil Cloud. Lors des réunions, j'ai su être convaincant pour défendre mon choix de refondre entièrement l'outil existant à zéro avec une nouvelle stack technologique. Ce projet m'a prouvé ma capacité à m'approprier un domaine complexe dont je ne connaissais rien au départ, et à m'organiser seul entre les livraisons de versions et les différents retours de mon équipe et de mes collègues en charge des tests.",
+          en: "This internship in Offensive Cybersecurity is an excellent immersion in a highly technical environment. This sector imposes strict security constraints: all work is done locally, without any Cloud tools. During meetings, I was convincing in defending my choice to completely rebuild the existing tool from scratch with a new tech stack. This project proved my ability to appropriate a complex domain I knew nothing about initially, and to organize myself alone between version deliveries and the various feedback from my team and colleagues in charge of testing."
+        },
+        personalAnalysis: undefined,
         missions: {
           fr: [
-            'Refonte d\'un outil de détection de vulnérabilités pour systèmes embarqués (Optimisation Niveau 3)',
-            'Architecture logicielle Clean Code et développement Full Stack (Réalisation Niveau 3)',
+            'Refonte d\'un outil de détection de vulnérabilités pour systèmes embarqués',
+            'Architecture logicielle Clean Code et développement Full Stack',
             'Mise en œuvre de pipelines CI/CD (GitLab, Jenkins)'
           ],
           en: [
-            'Vulnerability detection tool redesign for embedded systems (Optimization Level 3)',
-            'Clean Code software architecture and Full Stack development (Realization Level 3)',
+            'Vulnerability detection tool redesign for embedded systems',
+            'Clean Code software architecture and Full Stack development',
             'Implementation of CI/CD pipelines (GitLab, Jenkins)'
           ]
         }
@@ -58,20 +73,23 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
         company: 'Ramsay Santé',
         year: '2025',
         image: '/experience/ramsay.jpg',
-        role: { fr: 'Développeur Web (Service MOA)', en: 'Web Developer (MOA Department)' },
-        traceUrl: '/DOC/placeholder_trace.txt',
-        subjective: {
-          fr: "Première immersion dans le monde pro, où j’ai eu la responsabilité de réaliser un vrai projet de A à Z. J’ai découvert la réalité du travail : rythme, autonomie, gestion de projets et diversité des profils. L’ambiance était détendue et bienveillante, ce qui m’a permis de m’intégrer rapidement. J’ai été responsabilisé dès le début : organisation de réunions, recueil de besoins, gestion de données et développement d’un intranet. J’ai su m’adapter, présenter mon travail, écouter et prendre des initiatives, et j’ai reçu des retours très positifs.",
-          en: "First immersion in the professional world, where I had the responsibility to realize a real project from A to Z. I discovered the reality of work: rhythm, autonomy, project management, and diversity of profiles. The atmosphere was relaxed and benevolent, which allowed me to integrate quickly."
+        role: { fr: 'Développeur Web SharePoint (Service MOA)', en: 'SharePoint Web Developer (MOA Department)' },
+        traceUrl: undefined,
+        professionalReview: {
+          fr: "Ce premier stage a été ma première immersion dans le monde professionnel sous la supervision de ma tutrice. J'ai intégré le service MOA, qui gérait des sujets transverses comme le SIRH, le SI Finance ou la RPA. Cette expérience m'a permis de découvrir le rythme de l'entreprise, d'apprendre à aller chercher l'information auprès de mes collègues et de travailler en autonomie. J'ai su présenter mon travail régulièrement lors des réunions et j'ai reçu des retours très positifs sur le projet final.",
+          en: "This first internship was my first immersion in the professional world under the supervision of my tutor. I joined the MOA department, which managed transverse subjects like HRIS, Finance IS, or RPA. This experience allowed me to discover the corporate rhythm, learn how to seek information from my colleagues, and work autonomously. I was able to present my work regularly during meetings and received very positive feedback on the final project."
         },
+        personalAnalysis: undefined,
         missions: {
           fr: [
-            'Pilotage de la refonte intégrale de l’intranet collaboratif (25 collaborateurs)',
-            'Recueil des besoins et analyse fonctionnelle des processus métiers (MOA)'
+            'Réalisation intégrale d\'une plateforme intranet pour le service MOA (25 collaborateurs) afin de recenser et cartographier tous leurs outils logiciels, leurs projets et leurs contacts.',
+            'Recueil des besoins sur le terrain et analyse fonctionnelle auprès de mes collègues (Product Owners, managers) pour concevoir des maquettes adaptées à leurs usages.',
+            'Développement sur SharePoint et Power Apps pour structurer l\'architecture du site, concevoir l\'interface graphique et mettre en avant les informations du service.'
           ],
           en: [
-            'Management of the full collaborative intranet redesign (25 employees)',
-            'Requirements gathering and functional analysis of business processes (MOA)'
+            'Full development of an intranet platform for the MOA department (25 employees) to inventory and map all their software tools, projects, and contacts.',
+            'Field requirements gathering and functional analysis with colleagues (Product Owners, managers) to design mockups tailored to their usages.',
+            'Development on SharePoint and Power Apps to structure the site architecture, design the graphical interface, and highlight department information.'
           ]
         }
       }
@@ -94,6 +112,10 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
         fr: "La transition entre la première et la deuxième année de BUT Informatique a été un vrai tournant dans mon parcours. J’ai acquis de bonnes pratiques en développement, comme l’importance de la rigueur dans le code, la documentation, la gestion de projet et l’utilisation d’outils pros (Git, Figma...). J’ai surtout pris conscience de la valeur du travail en équipe et de la nécessité d’apprendre en continu. C’est durant cette période que j’ai confirmé mon choix de m’orienter vers l’informatique, où j'allie technique, créativité et résolution de problèmes.",
         en: "The transition between the first and second year of BUT CS was a real turning point. I acquired good development practices and realized the value of teamwork and continuous learning."
       },
+      futureStudies: {
+        fr: "(TODO: Définition claire de la poursuite d'études)",
+        en: "(TODO: Definition of future studies)"
+      },
       schools: [
         { degree: { fr: 'École d’Ingénieur', en: 'Engineering Degree' }, school: 'ESIEE Paris (Objectif)', period: '2026 – 2029', focus: { fr: 'Informatique (Spécialisation IA ou Logiciel)', en: 'Computer Science (AI or Software focus)' } },
         { degree: { fr: 'BUT Informatique', en: 'BUT CS' }, school: 'IUT Villetaneuse - Sorbonne Paris Nord', period: '2023 – 2026', focus: { fr: 'Réalisation d\'applications : conception, développement, validation', en: 'App Development' } },
@@ -108,49 +130,59 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     title: { fr: 'Projets', en: 'Projects' },
     subtitle: { fr: 'Fiertés Techniques', en: 'Technical Prides' },
     content: { 
-      fr: 'Des projets qui m\'ont challengé techniquement et humainement, me permettant de valider mes compétences BUT.', 
-      en: 'Projects that challenged me technically and humanly, allowing me to validate my BUT skills.' 
+      fr: "Des projets universitaires et personnels qui m'ont challengé techniquement et humainement.", 
+      en: "University and personal projects that challenged me technically and humanly." 
     },
     badge: { fr: 'Portfolio', en: 'Portfolio' },
     iconName: 'Code2',
     color: '#06b6d4',
     details: [
       { 
-        name: 'Projet SAE Chat (ATM Chat)', 
-        type: 'SAE', 
-        stack: 'WebSockets, JS, PHP, SQL', 
-        desc: { 
-          fr: 'Solution de messagerie sécurisée.', 
-          en: 'Secure messaging solution.' 
-        },
-        traceUrl: '/DOC/placeholder_trace.txt',
-        subjective: {
-          fr: "Avoir développé en équipe une application de messagerie collaborative en fullstack. Ça m’a vraiment permis de monter en compétences sur la gestion de projet, la communication et la technique pure. C’est LE projet qui m’a le plus challengé et rendu fier de ce que je sais faire.",
-          en: "Developed a fullstack collaborative messaging app in a team. It really allowed me to level up in project management, communication, and pure technique. It's THE project I'm most proud of."
-        }
-      },
-      { 
         name: 'GRAYE', 
-        type: 'Mobile', 
-        stack: 'React Native, TS, SQLite', 
-        traceUrl: '/DOC/placeholder_trace.txt',
+        image: '/projects/graye.png',
+        mockup: '/projects/graye-mockup.png',
+        type: 'Application Mobile (SAE S5)', 
+        stack: 'React Native, TypeScript, SQLite, Expo Go, Tailwind CSS', 
+        traceUrl: 'https://github.com/RobertGriffaton/SAES55',
         desc: { 
-          fr: 'Application mobile de recommandation de nourriture avec persistance locale complexe et Clean Architecture.', 
-          en: 'Food recommendation mobile app with complex local persistence and Clean Architecture.' 
+          fr: "Développée en équipe dans le cadre d'un projet universitaire (SAE), GRAYE est une application mobile d'aide à la décision pour trouver des restaurants. Ce projet complet nous a permis de concevoir une identité visuelle unique (nom, logo, charte graphique) et de prendre en main un écosystème mobile de manière totalement autonome en groupe.\n\n• Gestion de Projet & Design : Organisation en équipe, réalisation des maquettes de l'interface utilisateur et création complète de la direction artistique.\n\n• Fonctionnalités Applicatives : Implémentation d'un parcours d'onboarding personnalisé, d'un système de recherche par filtres, d'une gestion de favoris et d'un espace multi-profils avec historique.\n\n• Cartographie & Données : Intégration d'une carte interactive avec géolocalisation en temps réel pour situer les établissements, s'appuyant sur une base de données locale de plus de 5 000 restaurants.", 
+          en: "Developed in a team as part of a university project (SAE), GRAYE is a decision-support mobile app for finding restaurants. This comprehensive project allowed us to design a unique visual identity (name, logo, brand guidelines) and master a mobile ecosystem entirely autonomously as a group.\n\n• Project Management & Design: Team organization, UI mockup creation, and full art direction.\n\n• App Features: Implementation of a customized onboarding flow, a filter-based search system, favorites management, and a multi-profile space with history.\n\n• Mapping & Data: Integration of an interactive map with real-time geolocation to locate establishments, powered by a local database of over 5,000 restaurants." 
         } 
       },
       { 
-        name: 'Voronoi S6', 
-        type: 'Optimisation', 
-        stack: 'C++, Algorithmique', 
+        name: "ATM'Chat", 
+        mockup: '/projects/atm-chat-mockup.png',
+        mockupScale: 'scale-60 hover:scale-75', // Modifie cette variable (ex: scale-100 hover:scale-105) pour ajuster la taille du PC et son zoom au survol
+        type: 'Application de Messagerie en Temps Réel | 2025', 
+        stack: 'JavaScript, PHP, WebSockets, HTML / CSS, MySQL', 
+        traceUrl: 'https://github.com/Guen0x/SAE_AppChatAnnotation',
         desc: { 
-          fr: 'Génération de diagrammes de Voronoi. Optimisation algorithmique poussée.', 
-          en: 'Voronoi diagram generation. Advanced algorithmic optimization.' 
-        },
-        traceUrl: '/DOC/placeholder_trace.txt',
-        subjective: {
-          fr: "Projet de semestre 6 axé sur la performance brute en C++. Il m'a appris l'importance d'une structure de données optimale pour des algorithmes complexes.",
-          en: "Semester 6 project focused on raw performance in C++. Taught me the importance of optimal data structures for complex algorithms."
+          fr: "Développée dans le cadre d'un projet universitaire, ATM'Chat est une application de messagerie instantanée dyadique (type WhatsApp ou Messenger) intégrant un système d'analyse des conversations. La particularité du projet réside dans l'obligation pour l'utilisateur d'annoter son message avec l'émotion correspondante (joie, colère, tristesse, etc.) avant de pouvoir l'envoyer, permettant ainsi d'étudier et de cartographier les émotions au sein des échanges.\n\n• Communication en Temps Réel : Implémentation des WebSockets pour permettre l'envoi et la réception instantanée des messages, l'affichage des utilisateurs en ligne et la mise à jour des conversations en direct.\n\n• Système d'Annotation Forcé : Développement d'une logique applicative bloquant l'envoi du message tant qu'une catégorie d'émotion n'a pas été sélectionnée par l'émetteur.\n\n• Gestion des Utilisateurs : Conception de la base de données relationnelle et mise en place d'un système sécurisé d'authentification (inscription, connexion et gestion des comptes profils).", 
+          en: "Developed as a university project, ATM'Chat is a real-time instant messaging app integrating a conversation analysis system. The project's unique feature is that users must annotate their messages with an emotion (joy, anger, sadness, etc.) before sending, allowing emotions to be mapped across conversations.\n\n• Real-Time Communication: Implemented WebSockets for instant message sending/receiving, online status indicators, and live conversation updates.\n\n• Forced Annotation System: Developed application logic that blocks sending a message until the sender selects an emotion category.\n\n• User Management: Designed a relational database and implemented a secure authentication system for sign-ups, logins, and profile management." 
+        }
+      },
+      { 
+        name: 'Versus Stream (En cours)', 
+        mockup: '/projects/versus-stream-mockup.png',
+        mockupScale: 'scale-60 hover:scale-75', // Réduit pour mieux s'adapter à une capture de page web
+        isPersonal: true,
+        type: "Plateforme Web & Widget OBS | 2026", 
+        stack: "TypeScript, Next.js / Vercel, WebSockets, Redis, Tailwind CSS", 
+        traceUrl: 'https://github.com/GriffyCode/VersusStream',
+        prodUrl: 'https://versus-stream.vercel.app/',
+        desc: { 
+          fr: "VersusStream est un projet personnel conçu pour dynamiser les lives Twitch en permettant aux streamers\nde se défier en duel en temps réel.\n\nLe but est d'engager les communautés directement depuis le chat Twitch pour faire monter le score de leur streamer, sans qu'elles aient besoin d'installer quoi que ce soit. Tout le visuel s'intègre proprement sur le live via des widgets OBS fluides.\n\n• Interactions & Temps Réel : Connexion directe au chat Twitch pour transformer les messages (!duel), les Bits et les abonnements (Subs) en points en temps réel.\n\n• Performance & Haute Disponibilité : Utilisation de Redis et des WebSockets pour synchroniser instantanément les scores entre les streamers et supporter les pics de trafic des communautés sans aucun délai.\n\n• Widgets OBS Modulaires : Création d'affichages dynamiques inspirés des jeux de combat, pensés à 100% pour le web et faciles à intégrer sur les logiciels de streaming.", 
+          en: "VersusStream is a personal project designed to energize Twitch streams by allowing streamers\nto duel each other in real-time.\n\nThe goal is to engage communities directly from the Twitch chat to increase their streamer's score, without them needing to install anything. All visuals integrate cleanly into the stream via smooth OBS widgets.\n\n• Interactions & Real-Time: Direct connection to Twitch chat to transform messages (!duel), Bits, and subscriptions (Subs) into points in real-time.\n\n• Performance & High Availability: Use of Redis and WebSockets to instantly synchronize scores between streamers and handle community traffic spikes without any delay.\n\n• Modular OBS Widgets: Creation of dynamic displays inspired by fighting games, 100% web-based and easy to integrate into streaming software." 
+        }
+      },
+      { 
+        name: 'Voronoï', 
+        type: "Application Python & Étude de l'IA | 2026", 
+        stack: "Python, Interface Graphique (GUI), Outils d'IA", 
+        traceUrl: 'https://github.com/RobertGriffaton/SAE_S6_Voronoi',
+        desc: { 
+          fr: "Réalisé en équipe, ce projet consistait à développer une application en Python pour générer, afficher et exporter des diagrammes de Voronoï à partir de listes de points. Le but était de comparer concrètement le développement 100% humain et le développement assisté par IA (avec 4 outils différents) pour mesurer les différences de temps, de correction et d'optimisation du code.\n\n• Le dev sans IA vs avec IA : En codant d'abord nous-mêmes, on a maîtrisé toute la logique algorithmique. En passant sur l'IA ensuite, on a gagné beaucoup de temps sur la vitesse d'écriture, mais on a dû passer du temps à relire, corriger et optimiser le code généré pour qu'il respecte les bonnes pratiques.\n\n• De créateur à surveillant : Ce projet m'a fait passer du rôle de développeur qui écrit son code à celui de surveillant qui doit traquer les erreurs de l'IA, ce qui demande une grosse vigilance pour garder un code propre.\n\n• Analyse des impacts humains : J'ai rédigé une étude personnelle sur les conséquences de l'IA pour les travailleurs (fatigue de la relecture, risque de perte de nos compétences de base et baisse d'autonomie), en m'appuyant sur ce que j'ai constaté durant cette SAE et sur mon stage chez Ramsay Santé où l'IA n'était pas toujours accessible sur les réseaux sécurisés.", 
+          en: "Carried out as a team, this project involved developing a Python application to generate, display, and export Voronoi diagrams from point lists. The goal was to concretely compare 100% human development with AI-assisted development (using 4 different tools) to measure differences in time, correctness, and code optimization.\n\n• Dev without AI vs with AI: By coding ourselves first, we mastered all the algorithmic logic. When switching to AI afterwards, we saved a lot of time on writing speed, but we had to spend time reviewing, correcting, and optimizing the generated code so that it respected best practices.\n\n• From creator to supervisor: This project shifted me from the role of a developer who writes their code to a supervisor who must track down the AI's errors, requiring great vigilance to maintain clean code.\n\n• Human impact analysis: I wrote a personal study on the consequences of AI for workers (review fatigue, risk of losing our core skills, and decreased autonomy), based on what I observed during this SAE and my internship at Ramsay Santé where AI was not always accessible on secure networks." 
         }
       }
     ]
@@ -216,6 +248,26 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
             en: "Project management: planning, spreadsheets like Excel, task prioritization to meet deadlines."
           }
         }
+      ],
+      butSkills: [
+        {
+          name: { fr: "Réaliser (Niveau 3)", en: "Realize (Level 3)" },
+          level: 3,
+          synthesis: { fr: "(TODO: Synthèse des acquis Réaliser)", en: "(TODO: Synthesis Realize)" },
+          selfEvaluation: { fr: "(TODO: Auto-évaluation transparente Réaliser)", en: "(TODO: Self-evaluation Realize)" }
+        },
+        {
+          name: { fr: "Optimiser (Niveau 3)", en: "Optimize (Level 3)" },
+          level: 3,
+          synthesis: { fr: "(TODO: Synthèse des acquis Optimiser)", en: "(TODO: Synthesis Optimize)" },
+          selfEvaluation: { fr: "(TODO: Auto-évaluation transparente Optimiser)", en: "(TODO: Self-evaluation Optimize)" }
+        },
+        {
+          name: { fr: "Collaborer (Niveau 3)", en: "Collaborate (Level 3)" },
+          level: 3,
+          synthesis: { fr: "(TODO: Synthèse des acquis Collaborer)", en: "(TODO: Synthesis Collaborate)" },
+          selfEvaluation: { fr: "(TODO: Auto-évaluation transparente Collaborer)", en: "(TODO: Self-evaluation Collaborate)" }
+        }
       ]
     }
   },
@@ -234,7 +286,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     details: {
       music: { fr: 'Conservatoire Cycle 2 (Piano)', en: 'Conservatory Cycle 2 (Piano)' },
       hackathons: { fr: 'Chef d\'équipe Nuit de l\'Info', en: 'Night of IT Team Lead' },
-      sports: { fr: ['Échecs (Stratégie)', 'Futsal (Esprit d\'équipe)'], en: ['Chess (Strategy)', 'Futsal (Team Spirit)'] },
+      sports: { fr: ['Échecs (Stratégie)', 'Futsal (Esprit d\'équipe)', 'Randonnée (Endurance)'], en: ['Chess (Strategy)', 'Futsal (Team Spirit)', 'Hiking (Endurance)'] },
       passeportCulturel: {
         fr: [
           'Veille technologique (IA, Finance, Blockchain, 3D)',
@@ -246,6 +298,14 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
           'Data Webinars',
           'CNAM Museum'
         ]
+      },
+      techWatch: {
+        fr: ["(TODO: Démarche de veille informationnelle et technologique)"],
+        en: ["(TODO: Tech watch approach)"]
+      },
+      pedagogicalOutings: {
+        fr: ["(TODO: Compte-rendu des sorties pédagogiques)"],
+        en: ["(TODO: Pedagogical outings review)"]
       },
       langs: {
         fr: ['Français (Natif)', 'Roumain (Natif)', 'Anglais (B2 - Pro)', 'Italien'],

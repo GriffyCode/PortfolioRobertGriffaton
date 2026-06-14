@@ -58,16 +58,43 @@ const SkillDetail: React.FC<DetailProps<SkillItem>> = ({ item, lang, t }) => {
                 </div>
               ))}
             </div>
-          <div className="mt-10 p-6 bg-cyan-500/10 rounded-2xl border border-cyan-500/20 flex items-start gap-4">
-              <Award className="text-cyan-500 shrink-0" size={24} />
-              <p className="text-sm text-slate-300 leading-relaxed font-bold">
-                {lang === 'fr' 
-                  ? "L'utilisation de technologies comme FastAPI, Docker ou les WebSockets a été déterminante pour valider le Niveau 3 en Réalisation et Optimisation d'applications informatiques selon le référentiel BUT." 
-                  : "The use of technologies like FastAPI, Docker, or WebSockets was instrumental in validating Level 3 in Application Realization and Optimization according to the BUT framework."}
-              </p>
-          </div>
         </div>
       </div>
+
+      {item.details.butSkills && item.details.butSkills.length > 0 && (
+        <div className="pt-12 border-t border-white/5">
+          <h4 className="text-xl font-black text-white uppercase tracking-widest mb-8 flex items-center gap-3">
+            <Award className="text-cyan-500" size={28} />
+            {lang === 'fr' ? 'Tableau de Synthèse des Compétences BUT' : 'BUT Skills Synthesis Table'}
+          </h4>
+          <div className="overflow-x-auto">
+            <table className="w-full text-left border-collapse">
+              <thead>
+                <tr className="border-b border-cyan-500/30">
+                  <th className="py-4 px-6 text-cyan-400 font-black uppercase text-xs tracking-widest">{lang === 'fr' ? 'Compétence' : 'Skill'}</th>
+                  <th className="py-4 px-6 text-cyan-400 font-black uppercase text-xs tracking-widest">{lang === 'fr' ? 'Niveau' : 'Level'}</th>
+                  <th className="py-4 px-6 text-cyan-400 font-black uppercase text-xs tracking-widest w-1/3">{lang === 'fr' ? 'Synthèse des Acquis' : 'Learning Synthesis'}</th>
+                  <th className="py-4 px-6 text-cyan-400 font-black uppercase text-xs tracking-widest w-1/3">{lang === 'fr' ? 'Auto-Évaluation' : 'Self-Evaluation'}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {item.details.butSkills.map((skill: any, i: number) => (
+                  <tr key={i} className="border-b border-white/5 hover:bg-white/5 transition-colors">
+                    <td className="py-6 px-6 align-top">
+                      <span className="text-white font-bold block">{t(skill.name)}</span>
+                    </td>
+                    <td className="py-6 px-6 align-top">
+                      <span className="inline-block px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full text-xs font-black">{skill.level}</span>
+                    </td>
+                    <td className="py-6 px-6 align-top text-sm text-slate-300 leading-relaxed">{t(skill.synthesis)}</td>
+                    <td className="py-6 px-6 align-top text-sm text-slate-400 leading-relaxed italic">{t(skill.selfEvaluation)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
