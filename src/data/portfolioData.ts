@@ -142,6 +142,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
         type: 'Application Mobile (SAE S5)', 
         stack: 'React Native, TypeScript, SQLite, Expo Go, Tailwind CSS', 
         traceUrl: 'https://github.com/RobertGriffaton/SAES55',
+        pdfUrl: '/projects/RapportCommunication_GRAYE.pdf',
         desc: { 
           fr: "Développée en équipe dans le cadre d'un projet universitaire (SAE), GRAYE est une application mobile d'aide à la décision pour trouver des restaurants. Ce projet complet nous a permis de concevoir une identité visuelle unique (nom, logo, charte graphique) et de prendre en main un écosystème mobile de manière totalement autonome en groupe.\n\n• Gestion de Projet & Design : Organisation en équipe, réalisation des maquettes de l'interface utilisateur et création complète de la direction artistique.\n\n• Fonctionnalités Applicatives : Implémentation d'un parcours d'onboarding personnalisé, d'un système de recherche par filtres, d'une gestion de favoris et d'un espace multi-profils avec historique.\n\n• Cartographie & Données : Intégration d'une carte interactive avec géolocalisation en temps réel pour situer les établissements, s'appuyant sur une base de données locale de plus de 5 000 restaurants.", 
           en: "Developed in a team as part of a university project (SAE), GRAYE is a decision-support mobile app for finding restaurants. This comprehensive project allowed us to design a unique visual identity (name, logo, brand guidelines) and master a mobile ecosystem entirely autonomously as a group.\n\n• Project Management & Design: Team organization, UI mockup creation, and full art direction.\n\n• App Features: Implementation of a customized onboarding flow, a filter-based search system, favorites management, and a multi-profile space with history.\n\n• Mapping & Data: Integration of an interactive map with real-time geolocation to locate establishments, powered by a local database of over 5,000 restaurants." 
@@ -154,6 +155,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
         type: 'Application de Messagerie en Temps Réel | 2025', 
         stack: 'JavaScript, PHP, WebSockets, HTML / CSS, MySQL', 
         traceUrl: 'https://github.com/Guen0x/SAE_AppChatAnnotation',
+        pdfUrl: '/projects/Diapo_ATMChat.pdf',
         desc: { 
           fr: "Développée dans le cadre d'un projet universitaire, ATM'Chat est une application de messagerie instantanée dyadique (type WhatsApp ou Messenger) intégrant un système d'analyse des conversations. La particularité du projet réside dans l'obligation pour l'utilisateur d'annoter son message avec l'émotion correspondante (joie, colère, tristesse, etc.) avant de pouvoir l'envoyer, permettant ainsi d'étudier et de cartographier les émotions au sein des échanges.\n\n• Communication en Temps Réel : Implémentation des WebSockets pour permettre l'envoi et la réception instantanée des messages, l'affichage des utilisateurs en ligne et la mise à jour des conversations en direct.\n\n• Système d'Annotation Forcé : Développement d'une logique applicative bloquant l'envoi du message tant qu'une catégorie d'émotion n'a pas été sélectionnée par l'émetteur.\n\n• Gestion des Utilisateurs : Conception de la base de données relationnelle et mise en place d'un système sécurisé d'authentification (inscription, connexion et gestion des comptes profils).", 
           en: "Developed as a university project, ATM'Chat is a real-time instant messaging app integrating a conversation analysis system. The project's unique feature is that users must annotate their messages with an emotion (joy, anger, sadness, etc.) before sending, allowing emotions to be mapped across conversations.\n\n• Real-Time Communication: Implemented WebSockets for instant message sending/receiving, online status indicators, and live conversation updates.\n\n• Forced Annotation System: Developed application logic that blocks sending a message until the sender selects an emotion category.\n\n• User Management: Designed a relational database and implemented a secure authentication system for sign-ups, logins, and profile management." 
@@ -178,6 +180,7 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
         type: "Application Python & Étude de l'IA | 2026", 
         stack: "Python, Interface Graphique (GUI), Outils d'IA", 
         traceUrl: 'https://github.com/RobertGriffaton/SAE_S6_Voronoi',
+        pdfUrl: '/projects/Phase2_Voronoi.pdf',
         desc: { 
           fr: "Réalisé en équipe, ce projet consistait à développer une application en Python pour générer, afficher et exporter des diagrammes de Voronoï à partir de listes de points. Le but était de comparer concrètement le développement 100% humain et le développement assisté par IA (avec 4 outils différents) pour mesurer les différences de temps, de correction et d'optimisation du code.\n\n• Le dev sans IA vs avec IA : En codant d'abord nous-mêmes, on a maîtrisé toute la logique algorithmique. En passant sur l'IA ensuite, on a gagné beaucoup de temps sur la vitesse d'écriture, mais on a dû passer du temps à relire, corriger et optimiser le code généré pour qu'il respecte les bonnes pratiques.\n\n• De créateur à surveillant : Ce projet m'a fait passer du rôle de développeur qui écrit son code à celui de surveillant qui doit traquer les erreurs de l'IA, ce qui demande une grosse vigilance pour garder un code propre.\n\n• Analyse des impacts humains : J'ai rédigé une étude personnelle sur les conséquences de l'IA pour les travailleurs (fatigue de la relecture, risque de perte de nos compétences de base et baisse d'autonomie), en m'appuyant sur ce que j'ai constaté durant cette SAE et sur mon stage chez Ramsay Santé où l'IA n'était pas toujours accessible sur les réseaux sécurisés.", 
           en: "Carried out as a team, this project involved developing a Python application to generate, display, and export Voronoi diagrams from point lists. The goal was to concretely compare 100% human development with AI-assisted development (using 4 different tools) to measure differences in time, correctness, and code optimization.\n\n• Dev without AI vs with AI: By coding ourselves first, we mastered all the algorithmic logic. When switching to AI afterwards, we saved a lot of time on writing speed, but we had to spend time reviewing, correcting, and optimizing the generated code so that it respected best practices.\n\n• From creator to supervisor: This project shifted me from the role of a developer who writes their code to a supervisor who must track down the AI's errors, requiring great vigilance to maintain clean code.\n\n• Human impact analysis: I wrote a personal study on the consequences of AI for workers (review fatigue, risk of losing our core skills, and decreased autonomy), based on what I observed during this SAE and my internship at Ramsay Santé where AI was not always accessible on secure networks." 
@@ -203,6 +206,22 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
       data: ['PostgreSQL', 'MySQL', 'SQLite', 'MongoDB', 'Redis'],
       infra: ['Docker', 'Nginx', 'CI/CD (GitLab, Jenkins)', 'Linux', 'Git/GitHub'],
       tools: ['Power Platform', 'Jira', 'Agile', 'Figma', 'TDD'],
+      certifications: [
+        {
+          name: { fr: 'SQL Certificate (Basic)', en: 'SQL Certificate (Basic)' },
+          url: 'https://www.hackerrank.com/certificates/9d39e2fa6a97',
+          status: 'completed'
+        },
+        {
+          name: { fr: 'Devenir un bon Scrum Master', en: 'Becoming a good Scrum Master' },
+          url: 'https://www.linkedin.com/learning/certificates/3c3fe1d5c4dfc3fd5897307e85e533f49bee76d9284b8b0d798fa48719050744?trk=share_certificate',
+          status: 'completed'
+        },
+        {
+          name: { fr: 'Prompt Craft and AI Interaction Track (IBM)', en: 'Prompt Craft and AI Interaction Track (IBM)' },
+          status: 'in-progress'
+        }
+      ],
       softSkillsData: [
         {
           name: { fr: "Communication", en: "Communication" },
@@ -293,16 +312,16 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
     title: { fr: 'Culture', en: 'Culture' },
     subtitle: { fr: 'Ouverture & Langues', en: 'Hobbies & Languages' },
     content: { 
-      fr: "En dehors du code, mes 10 années de conservatoire de musique m'ont apporté une rigueur que j'applique dans mes projets. J'aime beaucoup le travail en équipe, comme lors de la Nuit de l'Info où j'ai été chef d'équipe. Pour moi, la bonne ambiance et le sérieux vont ensemble.", 
-      en: "Beyond coding, 10 years of conservatory music have given me a rigor I apply to all projects. I enjoy teamwork (e.g., Team Lead at Nuit de l'Info), believing good atmosphere and serious work go hand in hand." 
+      fr: "En dehors du développement, mes passions nourrissent mon esprit et mon approche de l'informatique. Mes 10 années de conservatoire m'ont inculqué la rigueur et la créativité, tandis que le sport m'apprend la force de la cohésion et de l'esprit d'équipe. La randonnée, quant à elle, m'offre un espace de réflexion et de persévérance face à l'effort. Ce capital culturel et sportif forge ma capacité à concevoir des solutions avec recul et à avancer sereinement en groupe.", 
+      en: "Outside of development, my passions fuel my mindset and my approach to computer science. My 10 years at the music conservatory instilled rigor and creativity, while sports teach me the strength of cohesion and teamwork. Hiking provides a space for reflection and perseverance. This cultural and sporting capital shapes my ability to design solutions with perspective and move forward harmoniously as a team." 
     },
     badge: { fr: 'Soft Skills', en: 'Soft Skills' },
     iconName: 'Music',
     color: '#06b6d4',
     details: {
-      music: { fr: 'Conservatoire Cycle 2 (Piano)', en: 'Conservatory Cycle 2 (Piano)' },
-      hackathons: { fr: 'Chef d\'équipe Nuit de l\'Info', en: 'Night of IT Team Lead' },
-      sports: { fr: ['Échecs (Stratégie)', 'Futsal (Esprit d\'équipe)', 'Randonnée (Endurance)'], en: ['Chess (Strategy)', 'Futsal (Team Spirit)', 'Hiking (Endurance)'] },
+      music: { fr: 'Diplôme de cycle 2', en: 'Cycle 2 Diploma' },
+      hackathons: { fr: 'Nuit de l\'Info 2024 & Nuit de l\'Info 2025 (Chef d\'équipe)', en: 'Nuit de l\'Info 2024 & Nuit de l\'Info 2025 (Team Leader)' },
+      sports: { fr: ['Échecs', 'Sport', 'Randonnée'], en: ['Chess', 'Sports', 'Hiking'] },
       passeportCulturel: {
         fr: [
           'Veille technologique (IA, Finance, Blockchain, 3D)',
@@ -315,17 +334,9 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
           'CNAM Museum'
         ]
       },
-      techWatch: {
-        fr: ["(TODO: Démarche de veille informationnelle et technologique)"],
-        en: ["(TODO: Tech watch approach)"]
-      },
-      pedagogicalOutings: {
-        fr: ["(TODO: Compte-rendu des sorties pédagogiques)"],
-        en: ["(TODO: Pedagogical outings review)"]
-      },
       langs: {
-        fr: ['Français (Natif)', 'Roumain (Natif)', 'Anglais (B2 - Pro)', 'Italien'],
-        en: ['French (Native)', 'Romanian (Native)', 'English (B2 - Pro)', 'Italian']
+        fr: ['Français (Natif)', 'Roumain (Natif)', 'Anglais (B2 - Pro)', 'Italien (Bases)', 'Allemand (Scolaire)'],
+        en: ['French (Native)', 'Romanian (Native)', 'English (B2 - Pro)', 'Italian (Basic)', 'German (School)']
       }
     }
   }

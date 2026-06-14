@@ -61,6 +61,33 @@ const SkillDetail: React.FC<DetailProps<SkillItem>> = ({ item, lang, t }) => {
         </div>
       </div>
 
+      {item.details.certifications && item.details.certifications.length > 0 && (
+        <div className="pt-12 border-t border-white/5">
+          <h4 className="text-xl font-black text-white uppercase tracking-widest mb-8 flex items-center gap-3">
+            <Award className="text-cyan-500" size={28} />
+            Certifications
+          </h4>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {item.details.certifications.map((cert, idx) => (
+              <div key={idx} className="p-5 bg-white/5 border border-white/10 hover:border-cyan-500/40 transition-colors rounded-2xl flex flex-col justify-between">
+                <div>
+                  <h4 className="text-sm font-bold text-white mb-3">{t(cert.name)}</h4>
+                  <span className={`text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full ${cert.status === 'completed' ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' : 'bg-amber-500/20 text-amber-400 border border-amber-500/30'}`}>
+                    {cert.status === 'completed' ? (lang === 'fr' ? 'Obtenue' : 'Completed') : (lang === 'fr' ? 'En cours' : 'In Progress')}
+                  </span>
+                </div>
+                {cert.url && (
+                  <a href={cert.url} target="_blank" rel="noopener noreferrer" className="mt-5 text-xs font-bold uppercase tracking-widest text-cyan-400 hover:text-cyan-300 flex items-center gap-2 transition-colors w-fit">
+                    {lang === 'fr' ? 'Voir le certificat' : 'View Certificate'}
+                    <span className="text-lg leading-none">&rsaquo;</span>
+                  </a>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       {item.details.butSkills && item.details.butSkills.length > 0 && (
         <div className="pt-12 border-t border-white/5">
           <h4 className="text-xl font-black text-white uppercase tracking-widest mb-8 flex items-center gap-3">

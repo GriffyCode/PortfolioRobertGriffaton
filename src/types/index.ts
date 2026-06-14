@@ -75,6 +75,7 @@ export interface ProjectDetails {
   desc: Translation;
   traceUrl?: string;
   prodUrl?: string;
+  pdfUrl?: string;
   subjective?: Translation;
   saeReview?: Translation; // Bilan complet des SAÉ
 }
@@ -86,12 +87,19 @@ export interface SkillDetails {
   infra: string[];
   tools: string[];
   softSkillsData: SoftSkill[];
+  certifications?: Certification[];
   butSkills?: { 
     name: Translation; 
     level: number; 
     synthesis: Translation; 
     selfEvaluation: Translation 
   }[]; // Tableau de synthèse des compétences BUT
+}
+
+export interface Certification {
+  name: Translation;
+  url?: string;
+  status: 'completed' | 'in-progress';
 }
 
 export interface CultureDetails {

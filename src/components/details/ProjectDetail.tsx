@@ -1,4 +1,4 @@
-import { Code2, ExternalLink } from 'lucide-react';
+import { Code2, ExternalLink, FileText } from 'lucide-react';
 import React from 'react';
 import type { DetailProps, ProjectItem } from '../../types';
 
@@ -50,6 +50,11 @@ const ProjectDetail: React.FC<DetailProps<ProjectItem>> = ({ item, lang, t }) =>
                      ) : (
                         lang === 'fr' ? 'Consulter la trace' : 'View trace'
                      )}
+                  </a>
+              )}
+              {proj.pdfUrl && (
+                  <a href={proj.pdfUrl} target="_blank" rel="noreferrer" title={lang === 'fr' ? 'Document PDF' : 'PDF Document'} className="inline-flex items-center justify-center p-3 bg-pink-500/10 border border-pink-500/30 text-pink-400 rounded-full hover:bg-pink-500 hover:text-white transition-all">
+                    <FileText size={18} />
                   </a>
               )}
               {proj.prodUrl && (
