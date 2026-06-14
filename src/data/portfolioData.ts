@@ -207,8 +207,8 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
         {
           name: { fr: "Communication", en: "Communication" },
           example: { 
-            fr: "Lors de mon stage chez Ramsay Santé, j'ai communiqué directement avec les utilisateurs pour recueillir et analyser leurs besoins terrain. J'ai aussi développé une forte aisance à l'oral lors des multiples soutenances du BUT et à la Journée de l'Éloquence où j'ai obtenu une très bonne évaluation.",
-            en: "During my internship at Ramsay Health, I communicated directly with users to gather and analyze their field requirements. I also developed strong public speaking skills through multiple university presentations and during the 'Journée de l'Éloquence' (Public Speaking Day), where I achieved excellent results."
+            fr: "Lors de mon stage chez Ramsay Santé, j'ai communiqué directement avec les utilisateurs pour recueillir et analyser leurs besoins terrain. J'ai aussi développé une forte aisance à l'oral lors des multiples soutenances du BUT et à la Journée de l'Éloquence où j'ai aimé cette expérience.",
+            en: "During my internship at Ramsay Health, I communicated directly with users to gather and analyze their field requirements. I also developed strong public speaking skills through multiple university presentations and during the 'Journée de l'Éloquence' (Public Speaking Day), where I really enjoyed the experience."
           }
         },
         {
@@ -221,8 +221,8 @@ export const PORTFOLIO_DATA: PortfolioItem[] = [
         {
           name: { fr: "Adaptabilité", en: "Adaptability" },
           example: {
-            fr: "Intégré en 100% présentiel chez Ramsay Santé, j'ai su me rendre rapidement opérationnel sur des environnements d'entreprise jusqu'alors inconnus, tels que SharePoint et Power Apps.",
-            en: "Integrated 100% on-site at Ramsay Santé, I quickly became operational in previously unknown corporate environments, such as SharePoint and Power Apps."
+            fr: "Capacité à basculer d'un secteur à un autre avec des environnements techniques très différents (comme SharePoint à Ramsay). Après un premier stage sur les besoins utilisateurs dans la santé (Ramsay), j'ai su m'adapter immédiatement aux exigences rigoureuses de la cybersécurité offensive dans la défense et l'aéronautique (Safran).",
+            en: "Ability to switch from one sector to another with very different technical environments (like SharePoint at Ramsay). After a first internship focused on user needs in healthcare (Ramsay), I immediately adapted to the rigorous requirements of offensive cybersecurity in defense and aeronautics (Safran)."
           }
         },
         {
